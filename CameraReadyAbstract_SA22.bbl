@@ -1,0 +1,98 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{3}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[\protect\citeauthoryear{Chan, Kao, Chen, Lee, Hsu, and Hung}{Chan
+  et~al\mbox{.}}{2010}]%
+        {Void}
+\bibfield{author}{\bibinfo{person}{Li-Wei Chan}, \bibinfo{person}{Hui-Shan
+  Kao}, \bibinfo{person}{Mike~Y. Chen}, \bibinfo{person}{Ming-Sui Lee},
+  \bibinfo{person}{Jane Hsu}, {and} \bibinfo{person}{Yi-Ping Hung}.}
+  \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{{T}ouching the {V}oid: {D}irect-{T}ouch
+  {I}nteraction for {I}ntangible {D}isplays}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the SIGCHI Conference on Human
+  Factors in Computing Systems}} \emph{(\bibinfo{series}{CHI '10})}.
+  \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{2625--2634}.
+\newblock
+\showISBNx{9781605589299}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/1753326.1753725}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Hunter, Azuma, Moisant-Thompson, MacLeod, and
+  Disanjh}{Hunter et~al\mbox{.}}{2017}]%
+        {Seth}
+\bibfield{author}{\bibinfo{person}{Seth Hunter}, \bibinfo{person}{Ron Azuma},
+  \bibinfo{person}{Jonathan Moisant-Thompson}, \bibinfo{person}{Dave MacLeod},
+  {and} \bibinfo{person}{Derek Disanjh}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{{M}id-{A}ir {I}nteraction with a {3D} {A}erial
+  {D}isplay}. In \bibinfo{booktitle}{\emph{ACM SIGGRAPH 2017 Emerging
+  Technologies}} \emph{(\bibinfo{series}{SIGGRAPH '17})}.
+  \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}, Article \bibinfo{articleno}{17},
+  \bibinfo{numpages}{2}~pages.
+\newblock
+\showISBNx{9781450350129}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3084822.3084827}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Kim, Takahashi, Yamamoto, Maekawa, and
+  Naemura}{Kim et~al\mbox{.}}{2014}]%
+        {MARIO}
+\bibfield{author}{\bibinfo{person}{Hanyuool Kim}, \bibinfo{person}{Issei
+  Takahashi}, \bibinfo{person}{Hiroki Yamamoto}, \bibinfo{person}{Satoshi
+  Maekawa}, {and} \bibinfo{person}{Takeshi Naemura}.}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{{MARIO}: {M}id-air {A}ugmented {R}eality
+  {I}nteraction with {O}bjects}.
+\newblock \bibinfo{journal}{\emph{Entertainment Computing}}
+  \bibinfo{volume}{5}, \bibinfo{number}{4} (\bibinfo{year}{2014}),
+  \bibinfo{pages}{233--241}.
+\newblock
+\showISSN{1875-9521}
+\urldef\tempurl%
+\url{https://doi.org/10.1016/j.entcom.2014.10.008}
+\showDOI{\tempurl}
+
+
+\end{thebibliography}
